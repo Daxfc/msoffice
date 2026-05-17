@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="titles.css">
+    <link rel="stylesheet" href="exceldesign.css">
+  <title>تطبيقات الحاسب</title>
+  <link rel="icon" href="pageicon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Single:wght@100..900&family=Bitcount:wght@100..900&family=Playwrite+AU+VIC+Guides&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="title"><span class="span" style="color: red; padding-left: 5px;">تطبيقات</span><span class="span" style="color: green;">الحاسب</span> <a href="msoffice.html" class="mslogo"><img src="msofficelogo.png" class="mslogo"></a></div>
+<div class="scrollable-bar">
+  <a href="excel1.html" class="a" id="e">Excel</a>
+  <a href="powerpoint1.html" class="a" id="p">PowerPoint</a>
+  <a href="network1.html" class="a" id="n">Network</a>
+  <a href="internet1.html" class="a" id="i">Internet</a>
+</div>
+
+<div class="next-last">
+  <a href="excel2.html" class="next"><-  الدرس السابق</a>
+  <a href="excel2.html" class="last">الدرس السابق -></a>
+</div>
+
+<div class="main">
+  <p class="middle-title">الدوال Functions</p>
+  <p class="normal-text">يوجد العديد من الدوال التي تستخدم في الحساب او اشياء عديده و يوجد الكثير من انواع الدوال مثل <span class="topic">الدوال الحسابية</span> و <span class="topic">الدوال المال</span> و <span class="topic">الدوال المنطقية</span> و <span class="topic">دوال التاريخ و الوقت</span> و <span class="topic">دوال نصيه</span> و <span class="topic">دوال رياضيات و مثلثات</span>.</p>
+  <p class="side-title">المعاملات الحسابية:-</p>
+  <div class="table-scroll">
+  <table border="1" class="table">
+    <thead>
+        <tr>
+            <th>المعامل</th>
+            <th>مثال</th>
+            <th>المعنى</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="nowrap">+</td>
+            <td class="nowrap">= A1 + B1</td>
+            <td>جمع محتويات الخلية <span class="topic">A1</span> مع محتويات الخلية <span class="topic">B1</span></td>
+        </tr>
+        <tr>
+            <td class="nowrap">-</td>
+            <td class="nowrap">= A1 - B1</td>
+            <td>طرح قيمة الخلية <span class="topic">B1</span> من قيمة الخلية <span class="topic">A1</span></td>
+        </tr>
+        <tr>
+            <td class="nowrap">*</td>
+            <td class="nowrap">= A1 * B1</td>
+            <td>ضرب محتويات الخلية <span class="topic">A1</span> في محتويات الخلية <span class="topic">B1</span></td>
+        </tr>
+        <tr>
+            <td class="nowrap">/</td>
+            <td class="nowrap">= A1 / B1</td>
+            <td>قسمة محتويات الخلية <span class="topic">A1</span> على محتويات الخلية <span class="topic">B1</span></td>
+        </tr>
+        <tr>
+            <td class="nowrap">^</td>
+            <td class="nowrap">= A1 ^ 2</td>
+            <td>مربع محتويات الخلية <span class="topic">A1</span> (الأس)</td>
+        </tr>
+    </tbody>
+</table>
+  </div>
+<p class="side-title">المعادلة الرياضية بأستخدام الدوال:-</p>
+<div class="table-scroll">
+<table class="table" border="1">
+    <thead>
+        <tr>
+            <th>الدالة</th>
+            <th>المعنى</th>
+            <th>الوظيفة</th>
+            <th>طريقة التنفيذ</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="nowrap">Max</td>
+            <td>أقصى قيمة</td>
+            <td class="nowrap">حساب القيمة العظمى لمجموعة من الخلايا</td>
+            <td class="nowrap">=MAX(<span class="topic3">نطاق الخلايا</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">Min</td>
+            <td>أصغر قيمة</td>
+            <td>حساب القيمة الصغرى لمجموعة من الخلايا</td>
+            <td class="nowrap">=MIN(<span class="topic3">نطاق الخلايا</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">Average</td>
+            <td>المتوسط</td>
+            <td>حساب المتوسط (المتوسط = المجموع / العدد)</td>
+            <td class="nowrap">=AVERAGE(<span class="topic3">نطاق الخلايا</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">Sum</td>
+            <td>المجموع</td>
+            <td>جمع مجموعة من الخلايا المتصلة أو المنفصلة</td>
+            <td class="nowrap">=SUM(<span class="topic3">نطاق الخلايا</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">IF</td>
+            <td>دالة شرطية</td>
+            <td>يتم إجراء العملية بناءً على تحقق الشرط</td>
+            <td class="nowrap">=IF(<span class="topic3">الشرط</span>, <span class="topic3">القيمة إذا تحقق</span>, <span class="topic3">القيمة إذا لم يتحقق</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">STDEVP</td>
+            <td>الانحراف المعياري</td>
+            <td>توجد الانحراف المعياري عن المتوسط</td>
+            <td class="nowrap">=STDEVP(<span class="topic3">نطاق الخلايا</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">COUNT</td>
+            <td>دالة للعد</td>
+            <td>هذه الدالة لعد الأرقام فقط</td>
+            <td class="nowrap">=COUNT(<span class="topic3">نطاق الخلايا</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">COUNTA</td>
+            <td>دالة للعد</td>
+            <td>هذه الدالة لعد النصوص مثل الأسماء</td>
+            <td class="nowrap">=COUNTA(<span class="topic3">نطاق الخلايا</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">COUNTIF</td>
+            <td class="nowrap">دالة العد المشروطة</td>
+            <td>لعد حالة معينة مثل الطلاب الناجحين فقط</td>
+            <td class="nowrap">=COUNTIF(<span class="topic3">نطاق الخلايا</span>, <span class="topic3">الشرط</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">COUNTBLANK</td>
+            <td class="nowrap">عد الخلايا الفارغة</td>
+            <td>تقوم بعد الخلايا التي لا تحتوي على بيانات</td>
+            <td class="nowrap">=COUNTBLANK(<span class="topic3">نطاق الخلايا</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">SMALL</td>
+            <td class="nowrap">ترتيب أصغر القيم</td>
+            <td>إرجاع أصغر قيمة بترتيب معين</td>
+            <td class="nowrap">=SMALL(<span class="topic3">نطاق الخلايا</span>, <span class="topic3">الترتيب</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">LARGE</td>
+            <td>ترتيب أكبر القيم</td>
+            <td>إرجاع أكبر قيمة بترتيب معين</td>
+            <td class="nowrap">=LARGE(<span class="topic3">نطاق الخلايا</span>, <span class="topic3">الترتيب</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">ROUND</td>
+            <td>تقريب الأرقام</td>
+            <td>تقريب الرقم لعدد محدد من الخانات</td>
+            <td class="nowrap">=ROUND(<span class="topic3">الرقم</span>, <span class="topic3">عدد الخانات العشرية</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">SUMIF</td>
+            <td class="nowrap">الجمع المشروط</td>
+            <td>جمع الخلايا التي تحقق شرطاً محدداً</td>
+            <td class="nowrap">=SUMIF(<span class="topic3">نطاق البحث</span>, <span class="topic3">الشرط</span>, <span class="topic3">نطاق الجمع</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">SUMPRODUCT</td>
+            <td>مجموع المنتجات</td>
+            <td>ضرب النطاقات المتقابلة وجمع نواتجها</td>
+            <td class="nowrap">=SUMPRODUCT(<span class="topic3">المصفوفة 1</span>, <span class="topic3">المصفوفة 2</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">LEN</td>
+            <td>طول النص</td>
+            <td>لحساب عدد الحروف داخل الخلية (بما فيها المسافات)</td>
+            <td class="nowrap">=LEN(<span class="topic3">النص أو الخلية</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">RIGHT</td>
+            <td>اقتطاع من اليسار</td>
+            <td>لاستخراج عدد محدد من الحروف من نهاية النص (جهة اليمين)</td>
+            <td class="nowrap">=RIGHT(<span class="topic3">النص</span>, <span class="topic3">عدد الحروف</span>)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">LEFT</td>
+            <td class="nowrap">اقتطاع من اليمين</td>
+            <td class="nowrap">لاستخراج عدد محدد من الحروف من بداية النص (جهة اليسار)</td>
+            <td class="nowrap">=LEFT(<span class="topic3">النص</span>, <span class="topic3">عدد الحروف</span>)</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<p class="side-title">انواع الدوال:-</p>
+<p class="normal-text">
+    <span class="topic2">الدوال الحسابية Math :-</span>
+    تُستخدم للعمليات الأساسية مثل الجمع <span class="topic">SUM</span> والضرب <span class="topic">PRODUCT</span> والتقريب <span class="topic">ROUND</span>.
+</p>
+
+<p class="normal-text">
+    <span class="topic2">الدوال المالية Financial :-</span>
+    تُستخدم في الحسابات البنكية والقروض والتحليلات الاستثمارية داخل برنامج <span class="topic">Excel</span>.
+</p>
+
+<p class="normal-text">
+    <span class="topic2">الدوال المنطقية Logical :-</span>
+    تعتمد على الشروط لاتخاذ القرارات مثل دالة <span class="topic">IF</span> ودوال الربط <span class="topic">AND</span> و <span class="topic">OR</span>.
+</p>
+
+<p class="normal-text">
+    <span class="topic2">دوال التاريخ والوقت Date & Time :-</span>
+    تتعامل مع البيانات الزمنية مثل استخراج اليوم الحالي بدالة <span class="topic">TODAY</span> أو الوقت الحالي بدالة <span class="topic">NOW</span>.
+</p>
+
+<p class="normal-text">
+    <span class="topic2">الدوال النصية Text :-</span>
+    تُستخدم لمعالجة النصوص مثل حساب طول النص بدالة <span class="topic">LEN</span> أو الاقتطاع بدوال <span class="topic">LEFT</span> و <span class="topic">RIGHT</span>.
+</p>
+
+<p class="normal-text">
+    <span class="topic2">دوال رياضيات ومثلثات Math & Trig :-</span>
+    تضم عمليات متقدمة كحساب الجذور التربيعية <span class="topic">SQRT</span> والجيب والجتا والتحويلات الهندسية.
+</p>
+</div>
+
+<div class="next-last" id="radius">
+  <a href="excel2.html" class="next"><-  الدرس السابق</a>
+  <a href="excel2.html" class="last">الدرس السابق -></a>
+</div>
+
+<div class="by">
+  <div class="by2">
+    <p class="text">عمل الطالب/ <span style="color: red; text-decoration: underline;">مازن رمضان حسانين رمضان</span></p>
+    <p class="text">تحت إشراف/ <span style="color: red; text-decoration: underline;">م.سند</span></p>
+  </div>
+</div>
+<button id="showLessons">>></button>
+<div id="lessonsList">
+  <p class="lessons-title">الدروس</p>
+  <p class="excel-lessons-title">Excel</p> 
+    <div class="lessons-wrapper">
+      <a href="excel1.html" class="one-lesson">تعريفات مهمة</a>
+      <a href="excel2.html" class="one-lesson">الشرائط Bars</a>
+      <a href="excel3.html" class="one-lesson" >الدوال Functions</a>
+    </div>
+     <p class="powerpoint-lessons-title">PowerPoint</p> 
+    <div class="lessons-wrapper">
+      <a href="powerpoint1.html" class="one-lesson">البوربوينت</a>
+      <a href="powerpoint2.html" class="one-lesson">اساسيات البوربوينت</a>
+    </div>
+  <p class="internet-lessons-title">Network</p>
+    <div class="lessons-wrapper">
+      <a href="network1.html" class="one-lesson">الشبكات Network</a>
+    </div>
+  <p class="network-lessons-title">Internet</p> 
+    <div class="lessons-wrapper">
+      <a href="internet1.html" class="one-lesson" id="nl">الانترنت Internet</a>
+    </div>
+</div>
+<script src="lessons.js"></script>
+</body>
+
+</html>
