@@ -1,0 +1,511 @@
+.next-last{
+  display: flex;
+  flex-direction: row;
+  background: white;
+  width: 100%;
+  justify-content: space-between;
+  padding: 30px 5px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#radius{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin-bottom: 80px;
+}
+
+#radius2{
+  border-radius: 6px;
+}
+
+.next, .last{
+  text-decoration: none;
+  color: white;
+  background: #222767;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 7px;
+}
+
+.main{
+  background: white;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 40px 5px 10px 5px;
+}
+
+.middle-title{
+  color: purple;
+  font-size: 28px;
+}
+
+.side-title{
+  color: red;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  width: auto;
+  height: auto;
+  margin: 50px 0 10px auto;
+  padding: 5px;
+  font-size: 18px;
+  border-top-left-radius: 10px;
+  line-height: 2;
+}
+
+.normal-text{
+  line-height: 2.2;
+  justify-self: right;
+  margin: 10px 0;
+}
+
+.topic{
+  color: purple;
+  border: solid 1px gray;
+  border-radius: 2px;
+  padding: 1px;
+  background: #D1D1D1;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.topic:active{
+  background: black;
+  color: red;
+  border: solid 1px black;
+}
+
+.topic2{
+  color: blue;
+  justify-self: start;
+}
+
+#nl{
+  margin-bottom: 50px;
+}
+
+.large-size-img{
+  height: 30vh;
+  width: 90vw;
+  display: block;
+  margin: 20px 0;
+  border: solid 1px gray;
+  justify-self: center;
+}
+
+.normal-size-img{
+  height: 250px;
+  width: 250px;
+  display: block;
+  justify-self: center;
+}
+
+.medium-size-img{
+  height: 10vh;
+  width: 90vw;
+  display: block;
+  margin: 20px 0;
+  border: solid 1px gray;
+  justify-self: center;
+}
+.list{
+  justify-self: start;
+}
+
+.list-text{
+  line-height: 2;
+  margin: 5px 0;
+}
+
+li::marker{
+  color: #222767;
+}
+
+#showLessons{
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background: #222767;
+  border: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  z-index: 99;
+  cursor: pointer;
+  bottom: auto;
+}
+
+#lessonsList{
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 100vh;
+  padding: 10px;
+  position: fixed;
+  right: -60%;
+  background: #D1D1D1;
+  align-items: center;
+  transition: 0.4s;
+  z-index: 5;
+  overflow-y: auto;
+}
+
+.lessons-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.one-lesson{
+  text-decoration: none;
+  color: #222767;
+  border: solid 1px gray;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+  margin: 0px 0 10px 0;
+  white-space: nowrap;
+}
+
+.lessons-title{
+  color: white;
+  font-size: 20px;
+  margin: 20px 0 20px 0;
+  border-radius: 8px;
+  background: #222767;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.excel-lessons-title{
+  color: white;
+  background: green;
+  width: 90%;
+  border-radius: 8px;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.powerpoint-lessons-title{
+  color: white;
+  background: red;
+  width: 90%;
+  border-radius: 8px;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0 10px 0;
+}
+
+.network-lessons-title{
+  color: white;
+  background: black;
+  width: 90%;
+  border-radius: 8px;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0 10px 0;
+}
+
+.internet-lessons-title{
+  color: white;
+  background: black;
+  width: 90%;
+  border-radius: 8px;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0 10px 0;
+}
+
+.nowrap{
+  white-space: nowrap;
+  direction: ltr;
+  text-align: center;
+}
+
+.table{
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 600px;
+  border: none;
+}
+
+td{
+  padding: 5px;
+  line-height: 2;
+}
+
+th{
+  background: gray;
+  color: white;
+  padding: 5px;
+}
+
+.table-scroll{
+  overflow-x: auto;
+  display: block;
+  width: 100%;
+  max-width: 100vw;
+  border: solid 0.1px black;
+}
+
+.topic3{
+  color: red;
+}
+
+#lessonsList{
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 100dvh;
+  padding: 10px;
+  position: fixed;
+  right: -60%;
+  top: 0;
+  background: #D1D1D1;
+  align-items: center;
+  transition: 0.4s;
+  z-index: 5;
+  overflow-y: auto;
+}
+
+.big-size-img{
+  width: 90vw;
+  height: 50vw;
+  margin: 40px 0 60px 0;
+}
+
+#nnf{
+  margin-bottom: 150px;
+}
+
+#nnh{
+  border: solid 1px black;
+}
+
+@media all and (min-width: 600px){
+    .next, .last{
+    font-size: 25px;
+  }
+
+  .next-last{
+    width: 80%;
+  }
+  
+  .main{
+    width: 80%;
+    padding: 10px;
+  }
+
+  .normal-size-img{
+    width: 400px;
+    height: 400px;
+    justify-self: center;
+  }
+ 
+ .large-size-img{
+   width: 600px;
+   height: 300px;
+ }
+ 
+ .medium-size-img{
+   width: 600px;
+   height: 90px;
+ }
+ 
+ #lessonsList{
+   width: 25vw;
+   height: 100dvh;
+   overflow: auto;
+ }
+ 
+ #showLessons{
+   padding: 10px;
+   font-size: 20px;
+ }
+ 
+ .lessons-title{
+   font-size: 25px;
+ }
+ 
+ .excel-lessons-title{
+   font-size: 25px;
+ }
+ 
+ .powerpoint-lessons-title{
+   font-size: 25px;
+ }
+ 
+ .network-lessons-title{
+   font-size: 25px;
+ }
+ 
+ .internet-lessons-title{
+   font-size: 25px;
+ }
+ 
+ .one-lesson{
+   font-size: 20px;
+ }
+ 
+ .middle-title{
+   font-size: 30px;
+ }
+ 
+ .side-title{
+   font-size: 25px;
+ }
+ 
+ .normal-text{
+   font-size: 20px;
+ }
+ 
+ .topic{
+   font-size: 20px;
+ }
+ 
+ .topic2{
+   font-size: 20px;
+ }
+ 
+ .list-text{
+   font-size: 20px;
+ }
+ 
+ td{
+   font-size: 20px;
+ }
+ 
+ th{
+   font-size: 20px;
+ }
+ 
+ .big-size-img{
+   width: 500px;
+   height: 300px;
+ }
+ 
+ #nl{
+   margin-bottom: 80px;
+ }
+
+}
+
+@media all and (min-width: 1000px){
+  .next, .last{
+    font-size: 25px;
+  }
+
+  .next-last{
+    width: 80%;
+  }
+  
+  .main{
+    width: 80%;
+    padding: 10px;
+  }
+
+  .normal-size-img{
+    width: 500px;
+    height: 500px;
+    justify-self: center;
+  }
+ 
+ .large-size-img{
+   width: 800px;
+   height: 450px;
+ }
+ 
+ .medium-size-img{
+   width: 800px;
+   height: 130px;
+ }
+ 
+ #lessonsList{
+   width: 25vw;
+   height: 100dvh;
+   overflow: auto;
+ }
+ 
+ #showLessons{
+   padding: 10px;
+   font-size: 20px;
+ }
+ 
+ .lessons-title{
+   font-size: 25px;
+ }
+ 
+ .excel-lessons-title{
+   font-size: 25px;
+ }
+ 
+ .powerpoint-lessons-title{
+   font-size: 25px;
+ }
+ 
+ .network-lessons-title{
+   font-size: 25px;
+ }
+ 
+ .internet-lessons-title{
+   font-size: 25px;
+ }
+ 
+ .one-lesson{
+   font-size: 20px;
+ }
+ 
+ .middle-title{
+   font-size: 30px;
+ }
+ 
+ .side-title{
+   font-size: 25px;
+ }
+ 
+ .normal-text{
+   font-size: 20px;
+ }
+ 
+ .topic{
+   font-size: 20px;
+ }
+ 
+ .topic2{
+   font-size: 20px;
+ }
+ 
+ .list-text{
+   font-size: 20px;
+ }
+ 
+ td{
+   font-size: 20px;
+ }
+ 
+ th{
+   font-size: 20px;
+ }
+ 
+ .big-size-img{
+   width: 500px;
+   height: 300px;
+ }
+ 
+ #nl{
+   margin-bottom: 80px;
+ }
+}
